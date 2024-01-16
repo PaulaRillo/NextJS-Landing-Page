@@ -1,0 +1,39 @@
+{
+  "name": "nextjs-product-page",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "^5.15.4",
+    "@mui/styles": "latest",
+    "@phosphor-icons/react": "^2.0.10",
+    "autoprefixer": "latest",
+    "clean-css": "latest",
+    "dotenv": "^16.3.1",
+    "next": "^12.3.4",
+    "postcss": "latest",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "typeface-poppins": "^1.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "^17.0.0",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  },
+  "description": "Page that presents the product and gives access to the app.",
+  "main": "next.config.js"
+}
